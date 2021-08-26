@@ -1,0 +1,24 @@
+.nav {
+  grid-area: n;
+  background-color: #0b84f5;
+  height: 320px;
+  color: white;
+  border-radius: 3px;
+}
+.item {
+  padding: 5px;
+}
+
+.item a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  size: 30px;
+}
+.item a:hover {
+  color: #2d3341;
+}
+.item a.active {
+  color: #2d3341;
+  width: 100px;
+}
